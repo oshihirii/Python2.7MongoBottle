@@ -10,7 +10,7 @@ Bare bones example of setting up a Python 2.7 app on OpenShift with:
 
 **Steps**
 
-In your terminal, within the folder where you would like your application folder created:  
+In your terminal, from within the folder where you would like your application folder created:  
 
 
 **01** -- `rhc app create YourAppName python-2.7`   // Create the Python application
@@ -48,7 +48,7 @@ Notes:
 
 **10** -- In your local application folder, replace the contents of the `application` file with those from the same file in this repo.  
 
-**11** -- Copy the `views` folder and its contents to your `wsgi` folder in your local application folder.  
+**11** -- In your local application folder, in the `wsgi` folder, create a folder called `views` and add the file from this repo called `page1.tpl`.  
 
 **12** -- Add, Commit and Push as usual
 
