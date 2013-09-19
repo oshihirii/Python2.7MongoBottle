@@ -1,6 +1,8 @@
 Python2.7MongoBottle
 ======================================
 
+(not working yet)
+
 Bare bones example of setting up a Python 2.7 app on OpenShift with:
 
 - MongoDB
