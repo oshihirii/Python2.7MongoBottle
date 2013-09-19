@@ -21,7 +21,7 @@ In your terminal, from within the folder where you would like your application f
 
 **04** -- Go to `YourAppName-YourNameSpace.rhcloud.com/rockmongo`
 
-**05** -- Create a collection in the database named after your app called 'myCollection'.
+**05** -- Create a collection in the database named after your app called `myCollection`.
 
 **06** -- Insert a document with this data:
 
