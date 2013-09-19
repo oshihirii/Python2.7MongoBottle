@@ -1,0 +1,43 @@
+#!/usr/bin/python
+ 
+import os
+ 
+virtenv = os.environ['OPENSHIFT_PYTHON_DIR'] + '/virtenv/'
+os.environ['PYTHON_EGG_CACHE'] = os.path.join(virtenv, 'lib/python2.6/site-packages')
+virtualenv = os.path.join(virtenv, 'bin/activate_this.py')
+try:
+    execfile(virtualenv, dict(__file__=virtualenv))
+except IOError:
+    pass
+ 
+# application code
+ 
+import bottle
+import pymongo
+ 
+@bottle.route('/')
+def index():
+ 
+    # define the host 
+    dbhost = 'admin:your-password@127.x.xx.xxx:27017/'  # IP is equal to value of $OPENSHIFT_MONGODB_DB_HOST
+ 
+    # define the database
+    dbname = 'your-dbname'
+ 
+    # define the connection
+    connection = pymongo.MongoClient("mongodb://$dbhost")
+ 
+    # establish the connection
+    db = connection.dbname
+ 
+    # specify the collection
+    collection = db.myCollection
+ 
+    # find a single document
+    result = collection.find_one()
+ 
+    return bottle.template('page1',{'dbresult':result['content']})
+ 
+bottle.run(host='127.x.xx.xxx', port=8080) # IP is equal to $OPENSHIFT_PYTHON_IP and port is equal to $OPENSHIFT_PYTHON_PORT
+
+
