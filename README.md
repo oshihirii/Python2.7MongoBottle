@@ -46,7 +46,7 @@ Notes:
         $OPENSHIFT_PYTHON_IP
         $OPENSHIFT_PYTHON_PORT
 
-**10** -- In your local application folder, replace the contents of the `application` file with those from the same file in this repo.  
+**10** -- In your local application folder, in the `wsgi` folder, replace the contents of the `application` file with those from the same file in this repo.  
 
 **11** -- In your local application folder, in the `wsgi` folder, create a folder called `views` and add the file from this repo called `page1.tpl`.  
 
