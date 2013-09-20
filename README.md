@@ -10,7 +10,7 @@ Bare bones example of setting up a Python 2.7 app on OpenShift with:
 - PyMongo
 - Bottle
 
-**Steps To Set Up OpenShift Online Account and Install Client Tools (on Fedora)**
+**Set Up OpenShift Online Account and Install Client Tools (on Fedora)**
 
 - Create an account on http://openshift.com
 - Download and install the clients tool via the terminal with:
