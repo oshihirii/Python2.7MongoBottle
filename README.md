@@ -13,6 +13,7 @@ Bare bones example of setting up a Python 2.7 app on OpenShift with:
 **Set Up OpenShift Online Account and Install Client Tools (on Fedora)**
 
 **01** -- Create an account on http://openshift.com
+
 **02** -- Download and install the Clients Tools via the terminal with:
 
         [me@my ~] su
