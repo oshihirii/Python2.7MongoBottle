@@ -1,7 +1,7 @@
 Python2.7MongoBottle
 ======================================
 
-(not working yet)
+Work In Progress.  
 
 Bare bones example of setting up a Python 2.7 app on OpenShift with:
 
@@ -13,7 +13,7 @@ Bare bones example of setting up a Python 2.7 app on OpenShift with:
 **Set Up OpenShift Online Account and Install Client Tools (on Fedora)**
 
 - Create an account on http://openshift.com
-- Download and install the clients tool via the terminal with:
+- Download and install the Clients Tools via the terminal with:
 
         [me@my ~] su
         Password:
