@@ -25,7 +25,7 @@ def index():
     dbname = 'your-dbname'
  
     # define the connection
-    connection = pymongo.MongoClient("mongodb://$dbhost")
+    connection = pymongo.MongoClient("mongodb://" + dbhost)
  
     # establish the connection
     db = connection.dbname
