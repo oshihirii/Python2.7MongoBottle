@@ -10,9 +10,34 @@ Bare bones example of setting up a Python 2.7 app on OpenShift with:
 - PyMongo
 - Bottle
 
-**Steps**
+**Steps To Set Up OpenShift Online Account and Install Client Tools (on Fedora)**
 
-In your terminal, from within the folder where you would like your application folder created:  
+- Create an account on http://openshift.com
+- Download and install the clients tool via the terminal with:
+
+        [me@my ~] su
+        Password:
+        [root@ymy username]  yum install rubygem-rhc
+        [root@ymy username]  exit # exit from super user
+        [me@my username]  mkdir my_openshift_apps # create a folder for your openshift apps
+        [me@my username]  cd my_openshift_apps # navigate into that folder
+        [me@my my_openshift_apps] rhc setup
+        #  the login prompt refers to your username at openshift.com
+        #  follow prompts to generate:
+        #  token
+        #  ssh keys
+        #  a name for your namespace
+        
+- Update client tools with:
+
+        [me@my my_openshift_apps] su
+        Password:
+        [root@my my_openshift_apps] gem update rhc
+        [root@my username] exit # exit from super user
+
+**Steps To Create Application**
+
+In your terminal, from within the folder where you would like your application folder created eg `my_openshift_apps`:  
 
 
 **01** -- `rhc app create YourAppName python-2.7`   // Create the Python application.
