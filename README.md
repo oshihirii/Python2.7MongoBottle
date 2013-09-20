@@ -28,7 +28,7 @@ Bare bones example of setting up a Python 2.7 app on OpenShift with:
         #  ssh keys
         #  a name for your namespace
         
-- Update client tools with:
+- Update Client Tools with:
 
         [me@my my_openshift_apps] su
         Password:
