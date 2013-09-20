@@ -1,7 +1,7 @@
 Python2.7MongoBottle
 ======================================
 
-Work In Progress.  
+[ Work In Progress ]
 
 Bare bones example of setting up a Python 2.7 app on OpenShift with:
 
