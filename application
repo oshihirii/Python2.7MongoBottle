@@ -11,8 +11,9 @@ except IOError:
     pass
  
 # application code
- 
-import bottle
+
+import bottle.Bottle()
+# import bottle
 import pymongo
  
 @bottle.route('/')
@@ -38,6 +39,6 @@ def index():
  
     return bottle.template('page1',{'dbresult':result['content']})
  
-bottle.run(host='127.x.xx.xxx', port=8080) # IP is equal to $OPENSHIFT_PYTHON_IP and port is equal to $OPENSHIFT_PYTHON_PORT
+# bottle.run(host='127.x.xx.xxx', port=8080) # IP is equal to $OPENSHIFT_PYTHON_IP and port is equal to $OPENSHIFT_PYTHON_PORT
 
 
