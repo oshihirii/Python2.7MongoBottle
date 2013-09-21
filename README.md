@@ -68,21 +68,13 @@ In your terminal, from within the folder where you would like your application f
 
 **10** -- In your local application folder, replace the contents of the `setup.py` file with those from the same file in this repo.
 
-**11** -- SSH in to your app with `rhc ssh YourAppName`, type `env` and press `Enter`.
+**11** -- In your local application folder, in the `wsgi` folder, replace the contents of the `application` file with those from the same file in this repo. 
 
-**12** -- Locate, copy and keep the the values from the following environment variables somewhere safe:
+**12** -- In your local application folder, in the `wsgi` folder, create a file called `mybottleapp.py` and add contents from the same file in this repo.
 
-        $OPENSHIFT_MONGODB_DB_HOST
-        $OPENSHIFT_PYTHON_IP
-        $OPENSHIFT_PYTHON_PORT
+**13** -- In your local application folder, in the `wsgi` folder, create a folder called `views` and add the file from this repo called `page1.tpl`.  
 
-**13** -- In your local application folder, in the `wsgi` folder, replace the contents of the `application` file with those from the same file in this repo. 
-
-**14** -- In your local application folder, in the `wsgi` folder, create a file called `mybottleapp.py` and add contents from the same file in this repo.
-
-**15** -- In your local application folder, in the `wsgi` folder, create a folder called `views` and add the file from this repo called `page1.tpl`.  
-
-**16** -- Add, commit and push as usual:  
+**14** -- Add, commit and push as usual:  
 
         git add --all :/
         git commit -m "add your message here"
