@@ -1,14 +1,21 @@
 Python2.7MongoBottle
 ======================================
 
-[ Work In Progress ]
-
 Bare bones example of setting up a Python 2.7 app on OpenShift with:
 
 - MongoDB
 - RockMongo
 - PyMongo
 - Bottle
+- 
+
+At the end of this tutorial, your browser should output:
+
+    Your result is:
+    
+    Here is some content.
+    
+The value `Here is some content.` will be pulled from a MongoDB database.  
 
 **Set Up OpenShift Online Account and Install Client Tools (on Fedora)**
 
