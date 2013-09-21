@@ -74,11 +74,13 @@ Notes:
         $OPENSHIFT_PYTHON_IP
         $OPENSHIFT_PYTHON_PORT
 
-**13** -- In your local application folder, in the `wsgi` folder, replace the contents of the `application` file with those from the same file in this repo.  
+**13** -- In your local application folder, in the `wsgi` folder, replace the contents of the `application` file with those from the same file in this repo. 
 
-**14** -- In your local application folder, in the `wsgi` folder, create a folder called `views` and add the file from this repo called `page1.tpl`.  
+**14** -- In your local application folder, in the `wsgi` folder, create a file called `mybottleapp.py` and add contents from the same file in this repo.
 
-**15** -- Add, commit and push as usual:  
+**15** -- In your local application folder, in the `wsgi` folder, create a folder called `views` and add the file from this repo called `page1.tpl`.  
+
+**16** -- Add, commit and push as usual:  
 
         git add --all :/
         git commit -m "add your message here"
