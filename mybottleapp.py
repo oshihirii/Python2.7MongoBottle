@@ -15,7 +15,7 @@ def index():
     projection = {'content': 1, '_id': 0}
     cursor = collection.find_one(query,projection)
     try:
-        return template('page1',{'dbresult':cursor})
+        return template('page1',{'dbresult':cursor['content']})
     except:
         return ("Problem passing data to template")
 
