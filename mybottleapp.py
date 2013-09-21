@@ -17,6 +17,6 @@ def index():
 import os
 from bottle import TEMPLATE_PATH
 TEMPLATE_PATH.append(os.path.join(os.environ['OPENSHIFT_HOMEDIR'], 
-    'runtime/repo/wsgi/views/')) 
+    'app-root/repo/wsgi/views/')) 
 
 application=default_app()
