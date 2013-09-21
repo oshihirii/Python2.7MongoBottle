@@ -14,6 +14,8 @@ At the end of this tutorial, your browser should output:
     
     Here is some content.
     
+The value `Here is some content.` will be pulled from a MongoDB database.  
+    
 Your application directory structure will look like this:
 
     app.py.disabled
@@ -38,8 +40,6 @@ Your application directory structure will look like this:
     -- openshift stuff in here
     
 The files and folders highlighted with asterixes above are the only ones you will need to modify when following this tutorial.  
-    
-The value `Here is some content.` will be pulled from a MongoDB database.  
 
 **Set Up OpenShift Online Account and Install Client Tools (on Fedora)**
 
