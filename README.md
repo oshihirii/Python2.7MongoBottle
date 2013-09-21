@@ -7,7 +7,6 @@ Bare bones example of setting up a Python 2.7 app on OpenShift with:
 - RockMongo
 - PyMongo
 - Bottle
-- 
 
 At the end of this tutorial, your browser should output:
 
