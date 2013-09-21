@@ -1,4 +1,4 @@
-from bottle import route, default_app, template, view
+from bottle import route, default_app, template, view, TEMPLATE_PATH
 import pymongo
 import os
  
@@ -19,7 +19,6 @@ def index():
     except:
         return ("Problem passing data to template")
 
-from bottle import TEMPLATE_PATH
 TEMPLATE_PATH.append(os.path.join(os.environ['OPENSHIFT_HOMEDIR'], 
     'app-root/repo/wsgi/views/')) 
 
