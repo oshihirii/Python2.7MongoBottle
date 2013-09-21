@@ -4,10 +4,10 @@ import pymongo
 @route('/')
 def index():
     try:
-        dbhost = 'admin:username@127.x.xx.xxx:27017/'
+        dbhost = 'admin:password@127.x.xx.xxx:27017/'
         dbname = 'mydbname'
         connection = pymongo.MongoClient("mongodb://" + dbhost)
-        db = connection.dbname
+        db = connection[dbname]
     except:
          return ("Couldn't connect to database")
     collection = db.myCollection
