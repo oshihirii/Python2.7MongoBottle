@@ -61,11 +61,6 @@ In your terminal, from within the folder where you would like your application f
 
 **10** -- In your local application folder, replace the contents of the `setup.py` file with those from the same file in this repo.
 
-Notes:
-
-- The `setup.py` file was originally from https://github.com/openshift-quickstart/Bottle-Python3-quickstart/blob/master/setup.py
-- This step will install PyMongo and Bottle.
-
 **11** -- SSH in to your app with `rhc ssh YourAppName`, type `env` and press `Enter`.
 
 **12** -- Locate, copy and keep the the values from the following environment variables somewhere safe:
