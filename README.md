@@ -1,7 +1,7 @@
 Python2.7MongoBottle
 ======================================
 
-Bare bones example of setting up a Python 2.7 app on OpenShift with:
+This is a bare bones example of setting up a Python 2.7 app on OpenShift with:
 
 - MongoDB
 - RockMongo
