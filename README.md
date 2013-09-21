@@ -14,6 +14,31 @@ At the end of this tutorial, your browser should output:
     
     Here is some content.
     
+Your application directory structure will look like this:
+
+    app.py.disabled
+    - data
+    -- .gitkeep
+    - libs
+    -- .gitkeep
+    README.md
+    setup.py *
+    setup.pyc
+    setup.pyo
+    - wsgi
+    -- application *
+    -- mybottleapp.py *
+    -- static
+    --- README
+    -- views *
+    --- page1.tpl *
+    .git
+    -- git stuff in here
+    .openshift
+    -- openshift stuff in here
+    
+The files and folders highlighted with asterixes above are the only ones you will need to modify when following this tutorial.  
+    
 The value `Here is some content.` will be pulled from a MongoDB database.  
 
 **Set Up OpenShift Online Account and Install Client Tools (on Fedora)**
