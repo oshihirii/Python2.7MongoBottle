@@ -56,6 +56,7 @@ In your terminal, from within the folder where you would like your application f
 
     {
     "content":"Here is some content."
+    "blah":1
     }
 
 
