@@ -2,7 +2,6 @@ from bottle import route, default_app, template, view
 import pymongo
  
 @route('/')
-@view('page1.tpl')
 def index():
     try:
         dbhost = 'admin:password@127.x.xx.xxx:27017/'
