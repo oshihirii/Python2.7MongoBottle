@@ -39,7 +39,7 @@ Your application directory structure will look like this:
     .openshift
     -- openshift stuff in here
     
-The files and folders highlighted with asterixes above are the only ones you will need to modify when following this tutorial.  
+The 5 files and folders highlighted with asterixes above are the only ones you will need to modify when following this tutorial.  
 
 **Set Up OpenShift Online Account and Install Client Tools (on Fedora)**
 
