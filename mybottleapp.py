@@ -1,4 +1,4 @@
-from bottle import route, default_app, template, view, TEMPLATE_PATH
+from bottle import route, post, default_app, template, view, TEMPLATE_PATH
 import pymongo
 import os
  
